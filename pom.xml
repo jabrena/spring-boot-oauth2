@@ -10,27 +10,9 @@
   <name>spring-boot-oauth2</name>
   <packaging>pom</packaging>
 
-  <properties>
-    <java.version>17</java.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.jab.microservices</groupId>
-        <artifactId>bom</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
   <modules>
     <module>bom</module>
     <module>base</module>
   </modules>
+
 </project>
