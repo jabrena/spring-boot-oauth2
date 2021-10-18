@@ -13,6 +13,13 @@
   <modules>
     <module>bom</module>
     <module>base</module>
+    <!-- Examples from:
+    https://spring.io/guides/tutorials/spring-boot-oauth2/
+    https://github.com/spring-guides/tut-spring-boot-oauth2
+    -->
+    <module>click</module>
+    <module>two-providers</module>
+    <module>custom-error</module>
   </modules>
 
 </project>
